@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://showboatstudios.github.io/sitemap.xml
