@@ -1,0 +1,732 @@
+{
+  "_readme": "Flip an app live: set its \"status\" to \"live\" (or back to \"coming_soon\"). Paste the App Store Connect provider token into config.PROVIDER_TOKEN to turn on campaign links. The pages read this file at load, so edits work without a rebuild; run tools/build.py to bake them into the HTML too.",
+  "config": {
+    "PROVIDER_TOKEN": "",
+    "campaigns": [
+      "hub",
+      "presskit",
+      "reddit",
+      "x",
+      "threads",
+      "bluesky",
+      "mastodon",
+      "producthunt",
+      "hackernews",
+      "discord",
+      "youtube",
+      "tiktok",
+      "instagram",
+      "press",
+      "newsletter",
+      "blog",
+      "email"
+    ],
+    "contact": "showboatcontact@gmail.com",
+    "site": "https://showboatstudios.github.io",
+    "APP_STORE_BADGE": ""
+  },
+  "apps": [
+    {
+      "slug": "hingebox",
+      "name": "Hingebox",
+      "store_name": "Hingebox",
+      "home_screen_name": "Hingebox",
+      "app_id": "6827295858",
+      "status": "coming_soon",
+      "accent": "#f2581b",
+      "hook": "Fold the hinge to bend the beat. Close the phone and Bop dances to your groove on the cover screen.",
+      "subtitle": "Fold the hinge, bend the beat",
+      "short": "Made for iPhone Duo: fold the hinge to bend the sound, close the phone and Bop dances to your groove on the cover screen. Plays on every iPhone too.",
+      "medium": "Made for iPhone Duo: fold the hinge and the sound bends with you. Close the phone and the groove keeps playing while the cover screen becomes the show: a dancing critter, a light-up step grid or a rhythm game made from your own beat.\n\nHingebox is a pocket groovebox that's always in key, and it plays on every iPhone. Touch the pad and you're playing.",
+      "long": "Made for iPhone Duo: fold the hinge and the sound bends with you. Close the phone and the groove keeps playing while the cover screen becomes the show: a dancing critter, a light-up step grid or a rhythm game made from your own beat.\n\nHingebox is a pocket groovebox that's always in key, and it plays on every iPhone. Touch the pad and you're playing.\n\nON IPHONE DUO: THE HINGE IS AN INSTRUMENT\nFold the hinge in from wherever you hold it to push an effect: bloom, filter, dub echo, stutter, tape stop or a tilt EQ. Tilt for a wobble, a pitch bend or more space. Shake to mutate the beat. Stand the phone up like a tent and the inner screen throws a light show under it.\n\nCLOSE IT AND WATCH\nClose the phone and the music keeps playing while the cover screen becomes the show: Bop hops on the beat, or pick the panel, lcd, bars, scope, tunnel, horizon or lava. Or play catch the beat, a game made from your own kicks and snares.\n\nPLAY THE PAD\nSlide left and right for pitch, up and down for tone. Up to four fingers. Every note snaps to the key, and chords light up underneath. Chord mode plays only chord tones so nothing clashes, and easy mode snaps your fingers to the steps of the scale. Hold latches a note while you do something else.\n\nMAKE A BEAT\nEight tracks of 16 steps: kick, snare, clap, hats, tom, perc and bass. Tap steps on, add accents, mute tracks, set swing and pump. Start from one of 23 grooves, from bubblegum house to one drop dub, or roll the dice for a new beat. Choose a key, one of 12 scales and one of 12 chord progressions.\n\n45 SOUNDS, MADE FOR THE APP\nLeads, basses, keys, arps, pads and fx. Some are synthesized live, and the tine keys, soft pluck, air pad, celesta, warm bass and studio drum kit are sampled instruments we built from scratch. Add a tape bed of hiss and vinyl under it all.\n\nARPEGGIATOR ON ANY SOUND\nUp, down, random, trill and more, from 1/32 to 1/4 with triplets. It plays what your fingers, a keyboard or a one-finger chord hold, and it follows the clock.\n\nLOOP IT\nFour loopers locked to the beat, 1, 2 or 4 bars long. Record, overdub, mute and clear while the groove keeps going.\n\nPLAYS WITH YOUR GEAR\nSend or follow MIDI clock, so Hingebox keeps time with a drum machine or a DAW. Play it from a MIDI keyboard over USB-C, Bluetooth or Wi-Fi, with scale lock and one-finger chords, and send the hinge and tilt out as MIDI controllers.\n\nON EVERY OTHER IPHONE\nThe pad and controls share the screen, the touch fx strip does what the hinge does, and the game opens full screen from the fx tab.\n\nNo account, no ads, no tracking. It keeps playing in the background and when the phone locks.",
+      "features": [
+        {
+          "title": "The hinge is an instrument",
+          "detail": "Fold in from wherever you hold it to push bloom, filter, dub echo, stutter, tape stop or a tilt EQ."
+        },
+        {
+          "title": "Close it and watch",
+          "detail": "The groove keeps playing while the cover screen becomes the show: Bop the dancing critter, a step grid, an LCD, or catch the beat, a rhythm game made from your own kicks and snares."
+        },
+        {
+          "title": "Always in key",
+          "detail": "Slide for pitch and tone with up to four fingers; every note snaps to the key and chord mode plays only chord tones."
+        },
+        {
+          "title": "Make a beat",
+          "detail": "Eight tracks of 16 steps, 23 grooves, 12 scales, 12 chord progressions and 45 original sounds."
+        },
+        {
+          "title": "Loop, arp and sync",
+          "detail": "Four loopers locked to the beat, an arpeggiator on any sound, and MIDI clock in and out."
+        },
+        {
+          "title": "Plays on every iPhone",
+          "detail": "A touch fx strip does what the hinge does on other iPhones."
+        }
+      ],
+      "version": "1.8",
+      "category": "Music",
+      "support_url": "https://showboatstudios.github.io/hingebox/support.html",
+      "privacy_url": "https://showboatstudios.github.io/hingebox/privacy.html",
+      "repo_dir": "Hingebox",
+      "pages_repo": "hingebox",
+      "shots": [
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0195.PNG",
+          "alt": "Hingebox open on iPhone Duo: the grooves library beside the pad and controls"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0191.PNG",
+          "alt": "Cover screen playing catch the beat, a rhythm game made from your own kicks and snares"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0192.PNG",
+          "alt": "Cover screen showing the light-up step grid while the phone is closed"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0196.PNG",
+          "alt": "The inner screen throwing a light show"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0198.PNG",
+          "alt": "The sound page with fx and sounds across both halves"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0193.PNG",
+          "alt": "Cover screen LCD show with tempo and clock"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0194.PNG",
+          "alt": "The pad, ready to play: every note snaps to the key"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0197.PNG",
+          "alt": "Sound browser on the inner screen"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0199.PNG",
+          "alt": "Loopers and fx on the inner screen"
+        }
+      ],
+      "hub_shots": [
+        0,
+        1,
+        2
+      ],
+      "video_shots": [
+        0,
+        3,
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "slug": "knock-knock",
+      "name": "Knock Knock",
+      "store_name": "Knock Knock Simulator",
+      "home_screen_name": "Knock Knock",
+      "app_id": "6827295662",
+      "status": "coming_soon",
+      "accent": "#1f6b3c",
+      "hook": "The hinge is the front door: shut the phone and someone knocks on the cover. Open it and the punchline is on the porch.",
+      "subtitle": "Fold-open door jokes for kids",
+      "short": "Made for iPhone Duo: the hinge is the door. Shut the phone and someone knocks; open it and the punchline is on the porch. Works on every iPhone too.",
+      "medium": "Made for iPhone Duo, where the hinge is your front door. Shut the phone and someone knocks on the cover. Peek through the peephole, answer \"Who's there?\", then open the phone to find the punchline waiting on the porch.\n\nOn every other iPhone the screen is the door: swipe it open on its hinges. No ads, no in-app purchases, no accounts, no tracking. Every joke is in the box.",
+      "long": "Made for iPhone Duo, where the hinge is your front door. Shut the phone and someone knocks on the cover. Peek through the peephole, answer \"Who's there?\", then open the phone to find the punchline waiting on the porch.\n\nOn every other iPhone the screen is the door: swipe it open on its hinges. No ads, no in-app purchases, no accounts, no tracking. Every joke is in the box.\n\nBUILT FOR THE FOLD\nOn iPhone Duo the hinge is the door. Shut the phone and the cover screen is the inside of your front door: knock on it and whoever is outside knocks back (try shave-and-a-haircut), or peek through the peephole to see who is waiting. Open the phone and the inner screen shows your door and the porch. On every other iPhone the screen is the door: swipe it open on its hinges and swipe it shut.\n\nTELL ME A JOKE\nTap the big red button and someone knocks. Tap \"Who's there?\", hear their name through the door, tap \"____ who?\" and the punchline only comes when you open the door and see who is out there. A lettuce in earmuffs. An owl in round glasses. A yeti who is freezing. BA DUM TISH! Confetti everywhere.\n\nSAY IT OUT LOUD\nTurn on voice mode and the door listens for \"Who's there?\" and \"... who?\" You say it, the visitor hears you. It all happens on the iPhone: recognition is on the device, nothing is recorded, and nothing is sent anywhere. Prefer tapping? The tickets work just as well, and voice mode is off until a grown-up says yes.\n\n38 CLASSIC JOKES THAT LAND\nFood, animals, names, spooky, holidays, school, silly and the very worst groaners. Every one is a proper pun on the reply, kid-safe, and told by a cartoon visitor who suits it. A shuffled bag means you hear every joke before any repeats. Now and then the doorbell rings instead.\n\nTHE GROAN METER\nAfter every punchline, give it one to five stars, from Meh to GROANER! Four stars or more and it lands in your favourites, so you can tell it again.\n\nPORCHES FOR EVERY SEASON\nThe porch changes with the month and after dark, with its own scenes for Valentine's, Easter, the Fourth of July, Halloween, Thanksgiving and Christmas, and a wreath that swings on the door. Six painted front doors (classic red, navy, forest green, barn, castle oak and bank vault): keep your favourite, or mix them up so every joke comes to a different one. Choose the porch, the wreath and the knocker in Customize, then jiggle the handle, rattle the knocker and bounce the wreath.\n\nJOKE OF THE DAY, TELL A FRIEND, MAKE YOUR OWN\nA new joke every day with a streak for coming back. Party mode turns the phone into a script: it shows you what to say, your friend answers, then you open the door to show them who it was. Or write your own who and punchline, pick the visitor, and share it as a picture (sharing sits behind a grown-up question).\n\nKIDS MODE AND BIGGER TEXT\nKids mode keeps to simple jokes and friendly visitors. Text size is adjustable, and read-aloud voices are built in.\n\nVintage carnival-poster art, synthesized knocks and rimshots, no ads, no accounts, no tracking. Just corny jokes and a door.",
+      "features": [
+        {
+          "title": "The hinge is the door",
+          "detail": "Shut the phone and the cover is the inside of your front door: knock on it and whoever is outside knocks back. Peek through the peephole."
+        },
+        {
+          "title": "Open for the punchline",
+          "detail": "Tap \"Who's there?\", then \"____ who?\", and the punchline only comes when you open the door and see who is out there."
+        },
+        {
+          "title": "Say it out loud",
+          "detail": "Voice mode listens for \"Who's there?\" so you can play the joke for real."
+        },
+        {
+          "title": "38 classic jokes",
+          "detail": "Food, animals, names, spooky, holidays, school and the very worst groaners, with a five-star groan meter."
+        },
+        {
+          "title": "Porches for every season",
+          "detail": "The porch changes with the month and after dark. Joke of the day, make-your-own jokes and a kids mode."
+        },
+        {
+          "title": "No ads, no tracking",
+          "detail": "No in-app purchases, no accounts. Every joke is in the box, and it plays on every iPhone."
+        }
+      ],
+      "version": "1.7",
+      "category": "Entertainment",
+      "support_url": "https://showboatstudios.github.io/knock-knock-duo/support.html",
+      "privacy_url": "https://showboatstudios.github.io/knock-knock-duo/privacy.html",
+      "repo_dir": "KnockKnockDuo",
+      "pages_repo": "knock-knock-duo",
+      "shots": [
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0177.PNG",
+          "alt": "Cover screen: peeking through the peephole at who is knocking"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0187.PNG",
+          "alt": "Cover screen: 'Ice cream who?' with the prompt to open the door"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0182.PNG",
+          "alt": "Phone opened: the punchline is waiting on the porch, BA DUM TISH"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0176.PNG",
+          "alt": "Cover screen: the inside of the front door with the joke menu"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0180.PNG",
+          "alt": "Inner screen: the door open on a snowy porch"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0179.PNG",
+          "alt": "Cover screen: Knock knock!"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0186.PNG",
+          "alt": "Inner screen: a visitor on the porch with the door open"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0189.PNG",
+          "alt": "Inner screen: punchline and confetti"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0183.PNG",
+          "alt": "Cover screen: who's there?"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0185.PNG",
+          "alt": "Inner screen: the porch at night"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0188.PNG",
+          "alt": "Inner screen: rating the groan with stars"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0190.PNG",
+          "alt": "Inner screen: a visitor waiting for you to open the door"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0178.PNG",
+          "alt": "Cover screen: someone is knocking"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0181.PNG",
+          "alt": "Cover screen: knock knock"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0184.PNG",
+          "alt": "Cover screen: who is it?"
+        }
+      ],
+      "hub_shots": [
+        0,
+        1,
+        2
+      ],
+      "video_shots": [
+        3,
+        5,
+        0,
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "slug": "taco-fold",
+      "name": "Taco Fold",
+      "store_name": "Taco Simulator",
+      "home_screen_name": "Taco Fold",
+      "app_id": "6827298176",
+      "status": "coming_soon",
+      "accent": "#f29a12",
+      "hook": "Close the phone to fold the taco, plate it on the cover screen, then open up for three tough judges.",
+      "subtitle": "Fold your phone, fold the taco",
+      "short": "Made for iPhone Duo: close the phone to fold the taco, plate it on the cover screen, open up for the judges. Overstuff it and it spills. Plays on every iPhone too.",
+      "medium": "Made for iPhone Duo: the hinge is the fold. Pile on the fillings, close the phone to fold the tortilla (slam it and a crunchy shell cracks), slide it into its holder on the cover screen, then open up for three tough judges.\n\nTaco Fold is a cozy taco-building game with real food physics, and it plays on every iPhone: turn it sideways and drag the fold tab.",
+      "long": "Made for iPhone Duo: the hinge is the fold. Pile on the fillings, close the phone to fold the tortilla (slam it and a crunchy shell cracks), slide it into its holder on the cover screen, then open up for three tough judges.\n\nTaco Fold is a cozy taco-building game with real food physics, and it plays on every iPhone: turn it sideways and drag the fold tab.\n\nFOLD IT WITH YOUR PHONE\nOn iPhone Duo, close the phone to fold the taco: the hinge is the fold. Overstuff it and the filling squirts out the ends. Slam it shut and a crunchy shell cracks. On any other iPhone, turn it sideways and drag the fold tab.\n\nBUILD IT\nYour tortilla sits on a painted plate with sixteen bowls around it. Drag a handful from any bowl and drop it where you want it. Salsas drizzle from the spoon as you drag. Push food around with your fingertip to even it out. Pick from 93 ingredients and 16 tortillas, from carne asada, al pastor and birria to nopales, squash blossoms and sixteen salsas, wrapped in corn, flour, a hard shell, a cheese shell or even a cactus paddle.\n\nREAL FOOD PHYSICS\nEvery piece has weight and friction. Toppings are drawn to true size, piles slump, sauce makes things stick, and runny salsas creep when you tilt. Give the phone a shove and the toppings fly. Turn it upside down and whatever isn't glued down falls off.\n\nPLATE IT AND FACE THE JUDGES\nSlide the folded taco into its holder on the cover screen, then open up for scorecards from Abuela, Chef Nacho and Brie. They score portions, how evenly the filling runs along the fold, flavor balance, looks, structure and plating. Find 33 named combos, from al pastor to quesabirria to a K-Town taco, and avoid crimes like cheese on fish.\n\nORDER UP!\nCustomers slide you tickets. Match the order, nail the spice level and beat the clock. Play Today's Special, one ticket a day, the same for everyone. Race through three orders in Food Truck Rush, or pass the phone for a two-player Taco-Off with the same ticket.\n\nA TOY ON THE COVER\nShut the phone between tacos and the cover screen becomes a toy. Tap to toss toppings that tumble with the phone's real tilt, shake to send them flying, poke Taquito the taco for kitchen wisdom, or play Taco Catch, a 30-second topping rain.\n\nKEEP YOUR BEST\nName your best tacos, keep the top 50 in the Hall of Fame, share a card of your favourite, and earn badges. Día de Muertos and Las Posadas bring their own specials. VoiceOver can build, plate and play.\n\nEverything stays on your device: no accounts, no ads, no tracking.",
+      "features": [
+        {
+          "title": "Fold it with your phone",
+          "detail": "Close the phone to fold the taco: the hinge is the fold. Overstuff it and the filling squirts out; slam it and a hard shell cracks."
+        },
+        {
+          "title": "Plate it on the cover",
+          "detail": "Slide the folded taco into its holder on the cover screen, then open up for scorecards from three tough judges."
+        },
+        {
+          "title": "Real food physics",
+          "detail": "Every piece has weight and friction: piles slump, sauce makes things stick and runny salsas creep."
+        },
+        {
+          "title": "93 ingredients",
+          "detail": "16 tortillas and 16 salsas, from carne asada and birria to nopales and squash blossoms."
+        },
+        {
+          "title": "Order up!",
+          "detail": "Customers slide you tickets in Food Truck Rush and the Taco-Off, and the cover becomes a toy between tacos."
+        },
+        {
+          "title": "Plays on every iPhone",
+          "detail": "Turn it sideways and drag the fold tab."
+        }
+      ],
+      "version": "1.5",
+      "category": "Games",
+      "support_url": "https://showboatstudios.github.io/taco-fold/support.html",
+      "privacy_url": "https://showboatstudios.github.io/taco-fold/privacy.html",
+      "repo_dir": "TacoDuo",
+      "pages_repo": "taco-fold",
+      "shots": [
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0234.PNG",
+          "alt": "Building a taco: sixteen bowls around a painted plate"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0231.PNG",
+          "alt": "Cover screen title: Taco Fold"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0239.PNG",
+          "alt": "The judges' scorecard after opening the phone"
+        },
+        {
+          "src": "iPhone Duo outer landscape 2034x1398 device 2026-11-07/IMG_0232.PNG",
+          "alt": "The folded taco on the cover screen"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0233.PNG",
+          "alt": "A fully loaded taco on the plate"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0237.PNG",
+          "alt": "Cover screen: plating the taco in its holder, perfecto!"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0238.PNG",
+          "alt": "Cover screen: Baker's Dozen score card"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0228.PNG",
+          "alt": "Pick a tortilla to start"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0229.PNG",
+          "alt": "Dropping the first fillings"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0230.PNG",
+          "alt": "Piling on salsa and toppings"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0235.PNG",
+          "alt": "A taco ready to fold"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0236.PNG",
+          "alt": "Cover screen: tilt to slide the taco into the holder"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0240.PNG",
+          "alt": "The start screen with modes"
+        }
+      ],
+      "hub_shots": [
+        0,
+        1,
+        2
+      ],
+      "video_shots": [
+        7,
+        8,
+        0,
+        3,
+        5,
+        2
+      ]
+    },
+    {
+      "slug": "planet-pass",
+      "name": "Planet Pass",
+      "store_name": "Planet Pass Geo",
+      "home_screen_name": "Planet Pass",
+      "app_id": "6827299320",
+      "status": "coming_soon",
+      "accent": "#e3407a",
+      "hook": "Close it to pass it on: the cover calls whose turn it is. Open it and you're standing on a real street somewhere on Earth.",
+      "subtitle": "Fold & pass geography party",
+      "short": "Made for iPhone Duo: close to pass, open to play. The cover calls whose turn it is, then a real street fills the screen beside a spinning globe. Plays on any iPhone too.",
+      "medium": "Made for iPhone Duo: close the phone to pass it on, and the cover screen calls out whose turn it is. Open it, and you're standing on a real street somewhere on Earth, with a spinning globe beside you to pin your guess. Plays on every iPhone too.\n\nPlanet Pass is a pass-the-phone geography party game for 1 to 8 players.",
+      "long": "Made for iPhone Duo: close the phone to pass it on, and the cover screen calls out whose turn it is. Open it, and you're standing on a real street somewhere on Earth, with a spinning globe beside you to pin your guess. Plays on every iPhone too.\n\nPlanet Pass is a pass-the-phone geography party game for 1 to 8 players.\n\nBUILT FOR THE FOLD\n- Pass it closed. The cover tells the next player \"your turn, nobody peek\", and nobody sees the last place.\n- Open the hinge to start your turn: street level fills the inner screen and the globe waits on the right.\n- Close it after your score and it's already on its way to the next player.\n- Waiting for the phone to come round? The cover runs Pin Sprint, a 45-second warm-up.\nOn any other iPhone, Start turn and Pass buttons do the same job, and Pin Sprint is on the start screen.\n\nDROPPED SOMEWHERE ON EARTH\nEvery turn opens at street level with Apple Look Around: a famous landmark, a downtown main street, a beach boardwalk, a busy intersection or a grand railway station. Tap the street to explore it full screen: drag to look around and walk down the road. Street names stay hidden, so the clues are the signs, the cars, the plants and the weather. Where there's no street-level coverage, you get a 3D satellite flyover that you steer by turning and tilting your phone.\n\nSPIN THE GLOBE, DROP THE PIN\nSpin the colourful 3D globe until the pin sits where you think you are, zoom in past the cities to a real map, and lock in. Your score is how many miles you were off. A pin in the right country takes 30% off, and locking in fast takes off up to 40% more.\n\nPASS THE PHONE\nEveryone gets their own mystery place and nothing repeats in a game, so there's no copying. After every round, see everyone's guesses on one globe. After five rounds, the fewest total miles wins.\n\nTHREE DIFFICULTIES\n- Easy: pick from four cities, no clock. Great for learning the map together.\n- Medium: a labelled globe and 90 seconds.\n- Hard: no names on the globe, satellite maps up close, and 60 seconds.\n\nSIX PLACE SETS, OR ALL OF THEM\n- World Famous Landmarks: towers, temples and wonders\n- Big City Downtowns: the main streets of great cities\n- Natural Wonders: canyons, glaciers, waterfalls and volcanoes\n- Beaches: sand, surf and boardwalks\n- Intersections: famous crossings and corners\n- Train Stations: grand halls and clock towers\nOr choose Random and get any place from any set. Every place has been checked against a source.\n\nEIGHT EXPLORERS\nPick an explorer for each player, name them, and watch the leaderboard.\n\nNo accounts, no ads, no tracking. Street-level views and maps need an internet connection.",
+      "features": [
+        {
+          "title": "Close it to pass it",
+          "detail": "The cover tells the next player \"your turn, nobody peek\", and nobody sees the last place."
+        },
+        {
+          "title": "Open it to play",
+          "detail": "Street level fills the inner screen and a spinning globe waits beside it to pin your guess."
+        },
+        {
+          "title": "Dropped somewhere on Earth",
+          "detail": "Landmarks, downtowns, beaches, intersections and grand railway stations; street names stay hidden."
+        },
+        {
+          "title": "1 to 8 players",
+          "detail": "Everyone gets their own mystery place; after five rounds the fewest total miles wins."
+        },
+        {
+          "title": "Three difficulties, six place sets",
+          "detail": "From Easy (pick from four cities, no clock) to Hard (no names on the globe, 60 seconds)."
+        },
+        {
+          "title": "Pin Sprint on the cover",
+          "detail": "A 45-second warm-up while the phone comes round. Plays on every iPhone with Start turn and Pass buttons."
+        }
+      ],
+      "version": "1.7",
+      "category": "Games",
+      "support_url": "https://showboatstudios.github.io/whereabouts-duo/support.html",
+      "privacy_url": "https://showboatstudios.github.io/whereabouts-duo/privacy.html",
+      "repo_dir": "WhereaboutsDuo",
+      "pages_repo": "whereabouts-duo",
+      "shots": [
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0208.PNG",
+          "alt": "Standing on a real street with the globe beside it to pin your guess"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0206.PNG",
+          "alt": "Cover screen: whose turn it is, nobody peek"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0214.PNG",
+          "alt": "Round score: miles off on the map"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0211.PNG",
+          "alt": "Player 2: your turn, nobody peek"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0213.PNG",
+          "alt": "Exploring a famous street at street level"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0207.PNG",
+          "alt": "Pick a place set"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0209.PNG",
+          "alt": "Spinning the globe to drop the pin"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0210.PNG",
+          "alt": "Wrong side of the planet: the score card"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0212.PNG",
+          "alt": "Street level view beside the map"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0215.PNG",
+          "alt": "Bullseye: the score card"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0216.PNG",
+          "alt": "Round results for every player"
+        }
+      ],
+      "hub_shots": [
+        0,
+        1,
+        2
+      ],
+      "video_shots": [
+        5,
+        0,
+        6,
+        2,
+        3,
+        10
+      ]
+    },
+    {
+      "slug": "user-agreement",
+      "name": "User Agreement",
+      "store_name": "User Agreement",
+      "home_screen_name": "Preamble",
+      "app_id": "6828874227",
+      "status": "coming_soon",
+      "accent": "#2f2f8f",
+      "hook": "Fold the hinge to exactly 75°, dial a lock with it, read codes off the cover screen. Setup microgames for a thing that never starts.",
+      "subtitle": "Setup microgames for foldables",
+      "short": "Made for iPhone Duo: fold the hinge to 75°, dial a lock with it, read codes off the cover screen, drag cables across the fold. The Experience is almost ready. Almost.",
+      "medium": "Made for iPhone Duo. Fold the hinge to an exact angle. Dial a combination lock with it. Shut the phone to read a code off the cover screen, then open it to type it in. Drag a cable across the fold into the router. Every setup step spreads across both pages, and the light of the Experience leaks out of the crease itself. Plays on every iPhone too.\n\nUser Agreement is a frantic microgame party where every game is a setup chore, and the thing you're setting up never quite begins.",
+      "long": "Made for iPhone Duo. Fold the hinge to an exact angle. Dial a combination lock with it. Shut the phone to read a code off the cover screen, then open it to type it in. Drag a cable across the fold into the router. Every setup step spreads across both pages, and the light of the Experience leaks out of the crease itself. Plays on every iPhone too.\n\nUser Agreement is a frantic microgame party where every game is a setup chore, and the thing you're setting up never quite begins.\n\nAgree to the terms. Prove you're not a robot. Join the 2.4 GHz network because the smart kettle only speaks 2.4 GHz. Pick the right Bluetooth device from a list of near-identical names. Say \"Hey Lumen\". Match the light bulb's colour. Dial in the thermostat. Wave your phone in a figure of eight. Find the dead pixel. Reject every cookie. Free up 4 terabytes, but whatever you do, don't delete the Experience.\n\nEach step lasts a few seconds. A command slams onto the screen, a fuse burns down, and you do the chore. Fail five and setup times out. Win five in a row and you get some patience back.\n\n- 82 setup steps across sections that get steadily more obscure: Network, Accounts & Security, Devices, Voice Assistant, Smart Home, Sensors & Calibration, Display & Sound, Hinge, Personalization and Legal, then Regional Compliance, Fold Insurance, Settings Behind the Settings and worse.\n- Setup screens from every era, 16 in all: an early-2000s wizard, a 1992 installer, a BIOS utility, a green-LCD candybar phone, a click-wheel music player, a router's admin page, a terminal, a cookie banner. All of them original parody.\n- The bar only ever goes up. 99%. 99.6%. 99.93%. Just one more thing.\n- Every run is shuffled: section order, steps and screens. Today's Setup is the same run for everyone that day.\n- Your answers build a profile that setup remembers, and quotes back at you.\n- 20 badges to earn across runs, and a report card to share when setup times out.\n- Uses the real hardware: tilt, shake, spin, the barometer, the proximity sensor, the volume buttons, the microphone, screenshots, brightness and haptics. Every sensor step has an on-screen fallback, so it plays on any iPhone.\n\nMADE FOR THE FOLD\nOn iPhone Duo the hinge is a controller: FOLD! to an angle, RESTART! by closing and reopening, UNLOCK! a dial, PUMP IT!, LAPTOP MODE!, lay it flat. Read the manual by swiping pages over the fold. Close the Duo to pause, and the cover nags you with reminders and shows how far you are from being ready. On other iPhones the hinge steps become on-screen dials and sliders, so everyone can play.\n\nPRIVATE AND FREE\nNo accounts, no ads, no tracking, no internet needed. The camera, microphone and motion are optional, used only on your phone, and nothing is recorded or sent.",
+      "features": [
+        {
+          "title": "The hinge is a controller",
+          "detail": "FOLD! to an exact angle, UNLOCK! a dial with the hinge, RESTART! by closing and reopening, LAPTOP MODE!"
+        },
+        {
+          "title": "Codes on the cover",
+          "detail": "Shut the phone to read a code off the cover screen, then open it to type it in. Close it to pause and the cover nags you."
+        },
+        {
+          "title": "82 setup chores",
+          "detail": "Agree to the terms, prove you're not a robot, join the 2.4 GHz network, reject every cookie, find the dead pixel."
+        },
+        {
+          "title": "16 setup screens from every era",
+          "detail": "An early-2000s wizard, a 1992 installer, a BIOS utility, a click-wheel music player: all original parody."
+        },
+        {
+          "title": "Uses the real hardware",
+          "detail": "Tilt, shake, the barometer, proximity sensor, volume buttons and microphone, each with an on-screen fallback."
+        },
+        {
+          "title": "Private and free",
+          "detail": "No accounts, no ads, no tracking, no internet needed."
+        }
+      ],
+      "version": "1.2",
+      "category": "Games",
+      "support_url": "https://showboatstudios.github.io/preamble-duo/support.html",
+      "privacy_url": "https://showboatstudios.github.io/preamble-duo/privacy.html",
+      "repo_dir": "PreambleDuo",
+      "pages_repo": "preamble-duo",
+      "shots": [
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0224.PNG",
+          "alt": "Title screen: please complete setup to begin the Experience"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0226.PNG",
+          "alt": "Agree! Choose the option that agrees to the terms"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0223.PNG",
+          "alt": "Cover screen: setup incomplete, three devices waiting"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0225.PNG",
+          "alt": "Setting up: 0%"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0227.PNG",
+          "alt": "Time zone! A firmware setup utility"
+        }
+      ],
+      "hub_shots": [
+        0,
+        1,
+        2
+      ],
+      "video_shots": [
+        0,
+        3,
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "slug": "fourfold",
+      "name": "Fourfold",
+      "store_name": "Fourfold: Four in a Row",
+      "home_screen_name": "Fourfold",
+      "app_id": "6827297834",
+      "status": "coming_soon",
+      "accent": "#2457c9",
+      "hook": "Stand it up like a little board: one player on the inner screen, the other across the table on the cover screen.",
+      "subtitle": "Two-sided foldable board game",
+      "short": "Made for iPhone Duo: stand it up like a board, one player inside the fold, one across the table on the cover screen. Plays on every iPhone too.",
+      "medium": "Made for iPhone Duo: stand the phone up like a little board and play four in a row across the table, one player on the inner screen and the other on the cover screen, each watching the other aim.\n\nIt plays on every iPhone too, with pass-and-play, a computer opponent and 120 puzzles.",
+      "long": "Made for iPhone Duo: stand the phone up like a little board and play four in a row across the table, one player on the inner screen and the other on the cover screen, each watching the other aim.\n\nIt plays on every iPhone too, with pass-and-play, a computer opponent and 120 puzzles.\n\nSTAND IT UP, SIT ACROSS\nOn iPhone Duo, open the phone and stand it up like a book. One player sits in front of the board on the inner screen. The other sits across the table and plays on the outer screen, looking at the board from behind, just like a real one: drop a disc on your left and it lands on their right. Each of you sees where the other is aiming before they let go. Prefer it like a laptop? Stand the board half up and lay the other half flat.\n\nPLAY YOUR WAY\n• Two sides: inside versus outside, each on your own screen\n• One side: pass-and-play on one screen\n• vs Phone: take on a computer opponent that thinks a few moves ahead\nOn any other iPhone, play pass-and-play or against the phone.\n\n120 PUZZLES IN YOUR POCKET\nClose the iPhone Duo and the outer screen becomes its own little game box: keep playing the full game, or switch to Puzzles. Each puzzle drops a position onto the board and asks you to win in 1, 2 or 3 moves while the phone defends as stubbornly as it can. Every puzzle has exactly one winning first move. Stuck? A hint lights the column. On any other iPhone, Puzzles sits right next to the other modes.\n\nFIVE SKINS, FIVE WAYS TO DROP\n• Classic: plastic discs that bounce and clack\n• Neon: glowing rings that streak down and flash the column\n• Candy: gummy discs that stretch as they fall, wobble on landing and throw sprinkles\n• Walnut: heavy ebony and maple pegs that thunk, shake the board and puff sawdust\n• Cosmos: planets with comet tails that land in a burst of stars\nEvery skin has its own sounds and its own celebration when someone gets four: confetti, light streaks, sprinkles, autumn leaves or shooting stars.\n\nTHE LITTLE THINGS\nDiscs fall behind the frame and show through the holes. The winning line lights up and draws itself. Start a new game and the slider pulls: every disc pours out the bottom. Players take turns going first, and the score is kept as you play.\n\nPRIVATE BY DESIGN\nNo accounts, no ads, no tracking, no internet. On iPhone Duo, iOS only lets an open phone show an app on its outer screen while the camera is running, so two-sided play keeps the camera on at low resolution. Every frame is thrown away unseen and nothing is ever recorded.",
+      "features": [
+        {
+          "title": "Stand it up, sit across",
+          "detail": "One player on the inner screen, the other across the table on the cover screen, looking at the board from behind."
+        },
+        {
+          "title": "See each other aim",
+          "detail": "Each of you sees where the other is aiming before they let go."
+        },
+        {
+          "title": "120 puzzles on the cover",
+          "detail": "Close it and the outer screen becomes its own little game box."
+        },
+        {
+          "title": "Three ways to play",
+          "detail": "Two sides, one-screen pass-and-play, or vs a computer opponent at Easy, Medium or Hard."
+        },
+        {
+          "title": "Five skins",
+          "detail": "Classic, Neon, Candy, Cosmos and more, each with its own way to drop."
+        },
+        {
+          "title": "Private by design",
+          "detail": "No accounts, no ads, no tracking, no internet. Plays on every iPhone."
+        }
+      ],
+      "version": "1.6",
+      "category": "Games",
+      "support_url": "https://showboatstudios.github.io/fourfold-duo/support.html",
+      "privacy_url": "https://showboatstudios.github.io/fourfold-duo/privacy.html",
+      "repo_dir": "FourfoldDuo",
+      "pages_repo": "fourfold-duo",
+      "shots": [
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0219.PNG",
+          "alt": "Four in a row on the inner screen in the Cosmos skin"
+        },
+        {
+          "src": "iPhone Duo outer landscape 2034x1398 device 2026-11-07/IMG_0222.PNG",
+          "alt": "The opponent's view on the cover screen: Mars's move"
+        },
+        {
+          "src": "iPhone Duo inner portrait 2007x2853 device 2026-11-07/IMG_0221.PNG",
+          "alt": "Laptop pose: board on the top half, controls on the bottom"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0217.PNG",
+          "alt": "The Neon skin"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 device 2026-11-07/IMG_0218.PNG",
+          "alt": "The Classic skin"
+        }
+      ],
+      "hub_shots": [
+        0,
+        1,
+        2
+      ],
+      "video_shots": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "slug": "desktop-95",
+      "name": "Desktop 95",
+      "store_name": "Desktop 95",
+      "home_screen_name": "Desktop 95",
+      "app_id": "6827299940",
+      "status": "coming_soon",
+      "accent": "#0a7f7d",
+      "hook": "Fold it like a laptop: the top half is a 90s monitor, the bottom half a clicky beige keyboard and trackpad.",
+      "subtitle": "Fold it into a 90s laptop",
+      "short": "Made for iPhone Duo: fold it like a laptop and the bottom half becomes a clicky beige keyboard and trackpad. Close the lid to stand by. Plays on every iPhone too.",
+      "medium": "Made for iPhone Duo. Fold it like a laptop: the top screen is a mid-90s monitor and the bottom half becomes a clicky beige keyboard with a working trackpad (and a coffee mug you can spill). Close the lid and the computer stands by while the cover screen keeps the clock; open it and you are right where you left off.\n\nPlays on every iPhone too. Desktop 95 is a whole pocket-sized beige computer, with pinball, card games, paint and a pretend web, drawn pixel by pixel and made entirely from scratch.",
+      "long": "Made for iPhone Duo. Fold it like a laptop: the top screen is a mid-90s monitor and the bottom half becomes a clicky beige keyboard with a working trackpad (and a coffee mug you can spill). Close the lid and the computer stands by while the cover screen keeps the clock; open it and you are right where you left off.\n\nPlays on every iPhone too. Desktop 95 is a whole pocket-sized beige computer, with pinball, card games, paint and a pretend web, drawn pixel by pixel and made entirely from scratch.\n\nBUILT FOR THE FOLD\n- Laptop pose: the hinge is the lid, the bottom screen is the keyboard deck and trackpad\n- Open flat: the whole inner screen is the monitor\n- Shut: the cover screen becomes a tiny system tray with the clock, what is playing and what your programs are up to\n- Music keeps playing with the lid closed\n- Choose whether closing the lid stands by or shuts down\n\nOn any other iPhone, hold it sideways for a full landscape desktop, or upright for a tall one.\n\nWHAT YOU CAN DO\n- Play Pinball on an original space-trooper table with missions, ranks and multiball\n- Clear boards in Mines, Solitaire and FreeCell\n- Munch your way through Number Nosh, a quick maths puzzle\n- Head north in Dawson Bound, a Klondike gold rush journey where nobody gets hurt\n- Draw in Paint with pencil, brush, airbrush, fill, shapes and a 28-colour palette, then set it as wallpaper or save it to your Photos\n- Write in Jotter, work things out in Calculator and tidy your files in folders\n- Type commands at the command line: DIR, CD, TYPE, HELP and more\n- Browse the Web Surfer's pretend retro pages, complete with hit counter and guestbook\n- Play five original songs on the music player, even with the lid shut\n- Watch the screen savers, and find the crash screen if you dare\n\nA REAL LITTLE COMPUTER\nLittle windows you can drag, resize, minimise and maximise. A Start menu with nested submenus. A taskbar with a clock. Long-press for right-click menus. A pretend disk that remembers your files, a trash can that holds your mistakes, and a Setup window for wallpapers, colour schemes and sounds. Shut it down properly when you are done.\n\nTHE DESKTOP 95 KEYBOARD\nA two-tone mechanical-style keyboard with pixel legends, a Caps Lock light, key repeat and a satisfying click. Prefer the iPhone keyboard? One switch in Setup.\n\nORIGINAL FROM TOP TO BOTTOM\nEvery icon, cursor, wallpaper and sound is made for this app. Nothing is copied from any real operating system.\n\nNo ads. No accounts. No tracking. Your files stay on your phone.",
+      "features": [
+        {
+          "title": "Fold it like a laptop",
+          "detail": "The hinge is the lid: the top screen is a mid-90s monitor, the bottom a clicky beige keyboard with a working trackpad (and a coffee mug you can spill)."
+        },
+        {
+          "title": "Close the lid",
+          "detail": "The cover screen becomes a tiny system tray with the clock and what's playing; open it and you're right where you left off."
+        },
+        {
+          "title": "Games and toys",
+          "detail": "Original pinball, Mines, Solitaire, FreeCell, Number Nosh and Dawson Bound."
+        },
+        {
+          "title": "A real little computer",
+          "detail": "Draggable windows, a Start menu, Paint, a jukebox, a command line and a pretend web with a guestbook."
+        },
+        {
+          "title": "Original from top to bottom",
+          "detail": "Every icon, cursor, wallpaper and sound is made for this app."
+        },
+        {
+          "title": "Plays on every iPhone",
+          "detail": "Sideways for a full landscape desktop, or upright for a tall one. No ads, accounts or tracking."
+        }
+      ],
+      "version": "1.6",
+      "category": "Entertainment",
+      "support_url": "https://showboatstudios.github.io/desktop-95/support.html",
+      "privacy_url": "https://showboatstudios.github.io/desktop-95/privacy.html",
+      "repo_dir": "Desktop95",
+      "pages_repo": "desktop-95",
+      "shots": [
+        {
+          "src": "iPhone Duo inner portrait 2007x2853 device 2026-11-07/IMG_0205.PNG",
+          "alt": "Laptop pose on iPhone Duo: pinball on the top screen, the beige keyboard and trackpad below"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/2.png",
+          "alt": "Command line on the monitor with the clicky keyboard deck"
+        },
+        {
+          "src": "iPhone Duo outer 1398x2034 device 2026-11-07/IMG_0200.PNG",
+          "alt": "Lid closed: the cover screen keeps the clock and stands by"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/3.png",
+          "alt": "Pinball on an original space-trooper table"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/4.png",
+          "alt": "The Start menu with nested submenus"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/5.png",
+          "alt": "Mines and Solitaire"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/6.png",
+          "alt": "Paint"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/7.png",
+          "alt": "FreeCell and Dawson Bound"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/8.png",
+          "alt": "Dawson Bound, a gold rush journey"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/9.png",
+          "alt": "Jukebox and Web Surfer"
+        },
+        {
+          "src": "iPhone Duo inner 2853x2007 v2/10.png",
+          "alt": "Number Nosh"
+        }
+      ],
+      "hub_shots": [
+        0,
+        1,
+        2
+      ],
+      "video_shots": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        2
+      ],
+      "soon_note": "Coming soon: App Store submission pending"
+    }
+  ]
+}
